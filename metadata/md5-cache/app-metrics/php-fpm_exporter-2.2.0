@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install setup
+DESCRIPTION=A Prometheus exporter that connects directly to PHP-FPM
+EAPI=7
+HOMEPAGE=https://github.com/hipages/php-fpm_exporter
+INHERIT=systemd user
+KEYWORDS=amd64
+LICENSE=Apache-2.0
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/hipages/php-fpm_exporter/releases/download/v2.2.0/php-fpm_exporter_2.2.0_linux_amd64.tar.gz -> php-fpm_exporter-2.2.0.tar.gz
+_eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942	user-info	9951b1a0e4f026d16c33a001fd2d5cdf	user	b4c9802c573ed12f78b6687d1f6afde5
+_md5_=57a9e8b4e40196874b4edec487e30aaf

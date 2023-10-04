@@ -1,12 +1,14 @@
 DEFINED_PHASES=configure install prepare unpack
-DEPEND=>=media-video/ffmpeg-0.10 media-libs/x264 >=media-libs/libvpx-1.0 media-libs/freetype media-libs/libjpeg-turbo media-libs/opus >=net-libs/sofia-sip-1.12.11 libyuv? ( media-libs/libyuv ) dev-vcs/git
+DEPEND=>=media-video/ffmpeg-0.10 media-libs/x264 >=media-libs/libvpx-1.0 media-libs/freetype media-libs/libjpeg-turbo media-libs/opus >=net-libs/sofia-sip-1.12.11 libyuv? ( media-libs/libyuv ) >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=OpenMCU-ru is a simple Mutli Conference Unit using the H.323 and SIP protocol
-EAPI=4
+EAPI=6
 HOMEPAGE=http://openmcu.ru/
+INHERIT=eutils git-r3
 IUSE=libyuv
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-1
+PROPERTIES=live
 RDEPEND=>=media-video/ffmpeg-0.10 media-libs/x264 >=media-libs/libvpx-1.0 media-libs/freetype media-libs/libjpeg-turbo media-libs/opus >=net-libs/sofia-sip-1.12.11 libyuv? ( media-libs/libyuv )
 SLOT=0
-_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	git-r3	7af5d170bfc02983b4bcd3167dc5edd4	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=e66c70ce6646b8c012787bc588138eb5
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	edos2unix	33e347e171066657f91f8b0c72ec8773	estack	c61c368a76fdf3a82fdf8dbaebea3804	epatch	2b02655f061dfa25067b543539110259	eqawarn	c9847c43b3253a276ae2eabddedab3d7	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	ltprune	97143780d341cc8d8f1d4c6187a36d29	preserve-libs	21162ec96c87041004a75348d97342dd	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	vcs-clean	d271b7bc7e6a009758d7d4ef749174e3	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	d318efeb438bbec051fa5aaf28d0d42c	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=a95098e11cd44ccf3044010f0f9586c4

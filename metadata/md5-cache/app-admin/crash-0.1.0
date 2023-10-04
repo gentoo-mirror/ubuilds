@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Client and server for running commands via redis pub/sub.
+EAPI=7
+HOMEPAGE=https://github.com/uu/crash
+KEYWORDS=amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/uu/crash/archive/0.1.0.tar.gz -> crash-0.1.0.tar.gz
+_md5_=a4b0575a180cf3a1b01979bdb872f571

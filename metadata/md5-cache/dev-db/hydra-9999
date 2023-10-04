@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=unpack
+DEPEND=dev-db/postgresql
+DESCRIPTION=Columnar store for analytics with PostgreSQL.
+EAPI=8
+HOMEPAGE=https://github.com/hydradatabase/hydra
+INHERIT=git-r3
+KEYWORDS=amd64
+LICENSE=Apache-2.0
+PROPERTIES=live
+RDEPEND=dev-db/postgresql
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=b544f45eb8688926c22295ea84563afd

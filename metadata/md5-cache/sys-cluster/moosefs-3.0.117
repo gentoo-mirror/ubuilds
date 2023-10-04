@@ -1,0 +1,15 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=configure install prepare setup
+DEPEND=cgi? ( dev-lang/python ) fuse? ( >=sys-fs/fuse-2.6 )
+DESCRIPTION=A filesystem for highly reliable petabyte storage
+EAPI=7
+HOMEPAGE=http://www.moosefs.org/
+INHERIT=autotools user
+IUSE=cgi +fuse static-libs systemd
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=cgi? ( dev-lang/python ) fuse? ( >=sys-fs/fuse-2.6 )
+SLOT=0
+SRC_URI=http://ppa.moosefs.com/src/moosefs-3.0.117-1.tar.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	user-info	9951b1a0e4f026d16c33a001fd2d5cdf	user	b4c9802c573ed12f78b6687d1f6afde5
+_md5_=22cad10dd0386f23aef4eca3abd0d6e2

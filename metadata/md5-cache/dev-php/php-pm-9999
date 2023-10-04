@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install unpack
+DEPEND=dev-lang/php[cgi] dev-php/composer >=dev-vcs/git-1.8.2.1[curl] app-misc/jq
+DESCRIPTION=PPM is a process manager, supercharger and load balancer for modern PHP applications.
+EAPI=6
+HOMEPAGE=https://github.com/php-pm/php-pm
+INHERIT=git-r3 composer
+KEYWORDS=x86 amd64
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php[cgi] dev-php/composer
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	composer	26d2f51eae1f8ade387bce94aea47293
+_md5_=fd836e9285a313ae098c639efa650579

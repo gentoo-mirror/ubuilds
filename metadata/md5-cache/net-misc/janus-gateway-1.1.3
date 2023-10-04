@@ -1,0 +1,16 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=configure install prepare
+DEPEND=dev-libs/jansson dev-libs/libconfig net-libs/libnice net-libs/libmicrohttpd net-libs/sofia-sip media-libs/opus media-libs/libogg dev-libs/nanomsg net-libs/libwebsockets[libuv,lejp] net-libs/rabbitmq-c net-libs/usrsctp net-libs/libsrtp:2 dev-lang/duktape
+DESCRIPTION=Janus WebRTC Server
+EAPI=8
+HOMEPAGE=https://janus.conf.meetecho.com/
+INHERIT=autotools
+IUSE=static
+KEYWORDS=amd64
+LICENSE=GPL-3.0-only
+RDEPEND=dev-libs/jansson dev-libs/libconfig net-libs/libnice net-libs/libmicrohttpd net-libs/sofia-sip media-libs/opus media-libs/libogg dev-libs/nanomsg net-libs/libwebsockets[libuv,lejp] net-libs/rabbitmq-c net-libs/usrsctp net-libs/libsrtp:2 dev-lang/duktape
+RESTRICT=network-sandbox
+SLOT=0
+SRC_URI=https://github.com/meetecho/janus-gateway/archive/refs/tags/v1.1.3.tar.gz -> janus-gateway-1.1.3.tar.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde
+_md5_=9373019556006b78cd921a5b3d383b33

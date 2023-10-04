@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/perl >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-perl/Statistics-Descriptive dev-lang/perl
+DESCRIPTION=scut is a better cut, extracts arbitrary columns based on regexes.
+EAPI=7
+HOMEPAGE=https://github.com/hjmangalam/scut
+INHERIT=perl-module git-r3
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+LICENSE=|| ( Artistic GPL-2 )
+PROPERTIES=live
+RDEPEND=dev-lang/perl:=
+SLOT=0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	c3fca037246e877693badea0df3b0ef8	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	perl-module	aa997145fb9941f14e9be1c3ed7238b8	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=570cc29d29f4686495fbb79c0b60b4f1
