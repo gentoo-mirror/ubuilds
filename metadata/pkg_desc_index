@@ -8,6 +8,7 @@ app-admin/logstash-forwarder 9999: An experiment to cut logs in preparation for 
 app-admin/loki 2.7.4: Like Prometheus, but for logs.
 app-admin/needrestart 3.6: Restart daemons after library updates
 app-metrics/bind_exporter 0.6.1: Prometheus exporter for BIND
+app-metrics/exim_exporter 1.6.1: Exports metrics from the exim mail server for consumption by Prometheus
 app-metrics/memcached_exporter 0.7.0: Prometheus exporter for memcached
 app-metrics/moosefs_exporter 0.1.0: Scrapes MooseFS stats and exports them via HTTP for Prometheus consumption
 app-metrics/php-fpm_exporter 2.2.0: A Prometheus exporter that connects directly to PHP-FPM
