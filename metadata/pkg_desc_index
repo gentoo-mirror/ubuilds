@@ -23,7 +23,7 @@ dev-db/hydra 9999: Columnar store for analytics with PostgreSQL.
 dev-db/mysql_fdw 2.0.1 9999: MySQL Foreign Data Wrapper for PostgreSQL
 dev-db/pg_repack 1.4.6: Reorganize tables in PostgreSQL databases with minimal locks
 dev-db/pgbouncer 1.18.0: Lightweight connection pooler for PostgreSQL
-dev-db/plpgsql_check 2.5.3: A Postgres linter fo pgplsql
+dev-db/plpgsql_check 2.5.4: A Postgres linter fo pgplsql
 dev-db/postgresql_anonymizer 0.7.1 9999: Anonymization & Data Masking for PostgreSQL
 dev-go/iochan 0.0.1_alpha: A Go library for turning io.Reader into channels
 dev-libs/libbrotli 9999: Meta project to build libraries from the brotli source code
