@@ -9,7 +9,7 @@ app-admin/logstash-bin 7.16.3 7.17.2 8.3.3: Tool for managing events and logs
 app-admin/logstash-forwarder 9999: An experiment to cut logs in preparation for processing elsewhere.
 app-admin/loki 2.7.4: Like Prometheus, but for logs.
 app-metrics/exim_exporter 1.6.1: Exports metrics from the exim mail server for consumption by Prometheus
-app-metrics/moosefs_exporter 0.1.0: Scrapes MooseFS stats and exports them via HTTP for Prometheus consumption
+app-metrics/moosefs_exporter 0.1.1: Scrapes MooseFS stats and exports them via HTTP for Prometheus consumption
 app-metrics/php-fpm_exporter 2.2.0: A Prometheus exporter that connects directly to PHP-FPM
 app-metrics/postfix_exporter 0.3.0: Prometheus Exporter for Postfix
 app-metrics/ssl_exporter 2.4.2: Exports Prometheus metrics for SSL certificates
