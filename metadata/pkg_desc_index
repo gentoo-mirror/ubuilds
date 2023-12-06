@@ -16,12 +16,12 @@ app-metrics/ssl_exporter 2.4.2: Exports Prometheus metrics for SSL certificates
 app-metrics/unbound_exporter 9999: Prometheus exporter for PostgreSQL metrics
 app-misc/elasticsearch 6.3.1-r4 7.16.3 7.17.2: Free and Open, Distributed, RESTful Search Engine
 dev-db/cstore_fdw 9999: Columnar store for analytics with PostgreSQL.
-dev-db/dragonfly 1.12.1: A modern replacement for Redis and Memcached
+dev-db/dragonfly 1.13.0: A modern replacement for Redis and Memcached
 dev-db/hydra 9999: Columnar store for analytics with PostgreSQL.
 dev-db/mysql_fdw 2.0.1 9999: MySQL Foreign Data Wrapper for PostgreSQL
 dev-db/odyssey 1.3: Scalable PostgreSQL connection pooler
 dev-db/pg_repack 1.4.8: Reorganize tables in PostgreSQL databases with minimal locks
-dev-db/plpgsql_check 2.6.2: A Postgres linter fo pgplsql
+dev-db/plpgsql_check 2.7.0: A Postgres linter fo pgplsql
 dev-db/postgresql_anonymizer 0.7.1 9999: Anonymization & Data Masking for PostgreSQL
 dev-db/rum 1.3.13: RUM access method - inverted index with additional information in posting lists
 dev-go/iochan 0.0.1_alpha: A Go library for turning io.Reader into channels
