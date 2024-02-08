@@ -39,6 +39,7 @@ net-analyzer/icingabeat 7.14.2: Elastic Beat fetching events & status from Icing
 net-analyzer/nagios-check_fail2ban 3-r1: A nagios plugin for checking the fail2ban daemon
 net-analyzer/nagios-check_pgactivity 9999: PostgreSQL plugin for Nagios.
 net-analyzer/nagios-plugins 1.4.16-r4 2.4.0: Official plugins for Nagios
+net-analyzer/suricata 7.0.3: High performance Network IDS, IPS and Network Security Monitoring engine
 net-firewall/vallumd 0.1.5 0.2.1 9999: Centralize or distribute IP blacklists
 net-fs/supload 9999: Bash script for upload file to cloud storage based on OpenStack Swift API.
 net-misc/free-sa 2.0.0: Free squid log analyzer
