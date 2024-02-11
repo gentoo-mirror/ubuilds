@@ -42,6 +42,7 @@ net-analyzer/nagios-plugins 1.4.16-r4 2.4.0: Official plugins for Nagios
 net-analyzer/suricata 7.0.3: High performance Network IDS, IPS and Network Security Monitoring engine
 net-firewall/vallumd 0.1.5 0.2.1 9999: Centralize or distribute IP blacklists
 net-fs/supload 9999: Bash script for upload file to cloud storage based on OpenStack Swift API.
+net-libs/libhtp 0.5.46: security-aware parser for the HTTP protocol and the related bits and pieces
 net-misc/free-sa 2.0.0: Free squid log analyzer
 net-misc/geoipmap 9999: View ip accesses to your server on a world map (using geoip and d3.js)
 net-misc/gnatsd 1.2.0: A high Performance NATS Server written in GoLang
