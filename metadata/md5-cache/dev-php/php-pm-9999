@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-lang/php[cgi] dev-php/composer
 SLOT=0
-_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	composer	26d2f51eae1f8ade387bce94aea47293
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1	composer	26d2f51eae1f8ade387bce94aea47293
 _md5_=fd836e9285a313ae098c639efa650579
