@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DEPEND=dev-db/postgresql
+DESCRIPTION=Transparent Data Encryption for PostgreSQL from Percona
+EAPI=8
+HOMEPAGE=https://github.com/Percona-Lab/pg_tde
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-db/postgresql
+SLOT=0
+SRC_URI=https://github.com/Percona-Lab/pg_tde/archive/refs/tags/1.0.0-alpha.tar.gz
+_md5_=42ea8ec5938c4335aa3d274fe479c75a

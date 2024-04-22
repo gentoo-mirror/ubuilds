@@ -21,6 +21,8 @@ dev-db/mysql_fdw 2.0.1 9999: MySQL Foreign Data Wrapper for PostgreSQL
 dev-db/odyssey 1.3: Scalable PostgreSQL connection pooler
 dev-db/omnipitr 9999: OmniPITR is a set of scripts to ease setting up WAL replication, and making hot backups from both Master and Slave systems.
 dev-db/pg_repack 1.4.8: Reorganize tables in PostgreSQL databases with minimal locks
+dev-db/pg_tde 1.0.0: Transparent Data Encryption for PostgreSQL from Percona
+dev-db/pgtde 9999: Transparent Data Encryption for PostgreSQL
 dev-db/plpgsql_check 2.7.5: A Postgres linter fo pgplsql
 dev-db/postgresql_anonymizer 0.7.1 9999: Anonymization & Data Masking for PostgreSQL
 dev-db/rum 1.3.13: RUM access method - inverted index with additional information in posting lists
