@@ -18,7 +18,7 @@ dev-db/cstore_fdw 9999: Columnar store for analytics with PostgreSQL.
 dev-db/dragonfly 1.17.1: A modern replacement for Redis and Memcached
 dev-db/hydra 9999: Columnar store for analytics with PostgreSQL.
 dev-db/mysql_fdw 2.0.1 9999: MySQL Foreign Data Wrapper for PostgreSQL
-dev-db/odyssey 1.3: Scalable PostgreSQL connection pooler
+dev-db/odyssey 1.3 9999: Scalable PostgreSQL connection pooler
 dev-db/omnipitr 9999: OmniPITR is a set of scripts to ease setting up WAL replication, and making hot backups from both Master and Slave systems.
 dev-db/pg_repack 1.4.8: Reorganize tables in PostgreSQL databases with minimal locks
 dev-db/pg_tde 1.0.0: Transparent Data Encryption for PostgreSQL from Percona
