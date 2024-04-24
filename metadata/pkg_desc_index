@@ -63,5 +63,5 @@ virtual/moose 1: Virtual for moosefs/lizardfs
 www-apps/icingaweb2-module-director 1.11.1: Icinga Web 2 plugin for configuration
 www-apps/icingaweb2-module-incubator 0.22.0: Bleeding edge Icinga Web 2 libraries
 www-apps/kibana-bin 8.3.3: Analytics and search dashboard for Elasticsearch
-www-servers/nginx 1.20.2 1.23.3-r1 1.25.4-r1: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.20.2 1.23.3-r1 1.25.4-r1 1.26.0-r1: Robust, small and high performance http and reverse proxy server
 www-servers/openresty 1.21.4.3: Scalable Web Platform by Extending NGINX with Lua
