@@ -1,6 +1,6 @@
-BDEPEND=|| ( >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] <dev-lang/perl-5.38.2-r3 ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-perl/Statistics-Descriptive || ( >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] <dev-lang/perl-5.38.2-r3 )
+DEPEND=dev-perl/Statistics-Descriptive >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=]
 DESCRIPTION=scut is a better cut, extracts arbitrary columns based on regexes.
 EAPI=7
 HOMEPAGE=https://github.com/hjmangalam/scut
@@ -9,7 +9,7 @@ IUSE=perl_features_debug perl_features_ithreads perl_features_quadmath
 KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
 LICENSE=|| ( Artistic GPL-2 )
 PROPERTIES=live
-RDEPEND=|| ( >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] <dev-lang/perl-5.38.2-r3 ) dev-lang/perl:=
+RDEPEND=>=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] dev-lang/perl:=
 SLOT=0
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	perl-functions	c3fca037246e877693badea0df3b0ef8	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	perl-module	07f7f317d867e5d5aa30fdeb6e873138	git-r3	fbb2889c81f3a05910c1524db69425c1
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	perl-functions	c3fca037246e877693badea0df3b0ef8	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	perl-module	25ca2ff8e7971cb7f817f0bda4be696d	git-r3	fbb2889c81f3a05910c1524db69425c1
 _md5_=570cc29d29f4686495fbb79c0b60b4f1
