@@ -15,7 +15,7 @@ app-metrics/postfix_exporter 0.3.0: Prometheus Exporter for Postfix
 app-metrics/ssl_exporter 2.4.2: Exports Prometheus metrics for SSL certificates
 app-metrics/unbound_exporter 9999: Prometheus exporter for PostgreSQL metrics
 dev-db/cstore_fdw 9999: Columnar store for analytics with PostgreSQL.
-dev-db/dragonfly 1.19.0: A modern replacement for Redis and Memcached
+dev-db/dragonfly 1.19.1: A modern replacement for Redis and Memcached
 dev-db/hydra 9999: Columnar store for analytics with PostgreSQL.
 dev-db/mysql_fdw 2.0.1 9999: MySQL Foreign Data Wrapper for PostgreSQL
 dev-db/odyssey 1.3 9999: Scalable PostgreSQL connection pooler
