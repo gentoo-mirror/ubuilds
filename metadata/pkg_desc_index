@@ -51,7 +51,6 @@ net-misc/free-sa 2.0.0: Free squid log analyzer
 net-misc/janus-gateway 1.1.3: Janus WebRTC Server
 net-misc/natscli 0.1.3: The NATS Command Line Interface
 net-misc/ssh-honeypot 9999: Fake sshd that logs ip addresses, usernames, and passwords.
-net-print/samsung-unified-driver 1.00.37: Samsung Unified Linux Driver for printers and MFDs
 sys-cluster/moosefs 3.0.117: A filesystem for highly reliable petabyte storage
 sys-cluster/seaweedfs 2.85: SeaweedFS is a simple and highly scalable distributed file system
 virtual/lua 5: Virtual for Lua programming language
