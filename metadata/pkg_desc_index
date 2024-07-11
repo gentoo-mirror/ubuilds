@@ -27,12 +27,10 @@ dev-db/plpgsql_check 2.7.7: A Postgres linter fo pgplsql
 dev-db/postgresql_anonymizer 0.7.1 9999: Anonymization & Data Masking for PostgreSQL
 dev-db/rum 1.3.13: RUM access method - inverted index with additional information in posting lists
 dev-go/iochan 0.0.1_alpha: A Go library for turning io.Reader into channels
-dev-libs/libbrotli 9999: Meta project to build libraries from the brotli source code
 dev-libs/libcouchbase 2.0.6: The couchbase client for C.
 dev-perl/scut 9999: scut is a better cut, extracts arbitrary columns based on regexes.
 dev-php/pecl-mailparse 3.1.3-r1: PHP extension for parsing and working with RFC822 and MIME compliant messages
 dev-php/pecl-timezonedb 2023.3: Timezone Database to be used with PHP's date and time functions
-dev-php/php-pm 9999: PPM is a process manager, supercharger and load balancer for modern PHP applications.
 dev-php/php-spx 9999: A simple and straight-to-the-point PHP profiling extension
 dev-python/pcapy-ng 1.0.9: Python pcap extension
 dev-python/pgextras 0.2.1: Provides various statistics for a Postgres instance
@@ -40,7 +38,6 @@ dev-python/sentrylogs 0.5.0: Send logs from Nginx and other applications to Sent
 dev-python/tailhead 1.0.2: head, tail and follow in python
 net-analyzer/icingabeat 7.14.2: Elastic Beat fetching events & status from Icinga 2
 net-analyzer/nagios-check_fail2ban 3-r1: A nagios plugin for checking the fail2ban daemon
-net-analyzer/nagios-check_pgactivity 9999: PostgreSQL plugin for Nagios.
 net-analyzer/nagios-plugins 1.4.16-r4 2.4.0: Official plugins for Nagios
 net-analyzer/suricata 7.0.3: High performance Network IDS, IPS and Network Security Monitoring engine
 net-firewall/bango 0.0.4 9999: Distributed banning system for fail2ban
