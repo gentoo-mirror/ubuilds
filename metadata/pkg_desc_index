@@ -26,7 +26,6 @@ dev-db/pgtde 9999: Transparent Data Encryption for PostgreSQL
 dev-db/plpgsql_check 2.7.7: A Postgres linter fo pgplsql
 dev-db/postgresql_anonymizer 0.7.1 9999: Anonymization & Data Masking for PostgreSQL
 dev-db/rum 1.3.13: RUM access method - inverted index with additional information in posting lists
-dev-go/iochan 0.0.1_alpha: A Go library for turning io.Reader into channels
 dev-libs/libcouchbase 2.0.6: The couchbase client for C.
 dev-perl/scut 9999: scut is a better cut, extracts arbitrary columns based on regexes.
 dev-php/pecl-mailparse 3.1.3-r1: PHP extension for parsing and working with RFC822 and MIME compliant messages
