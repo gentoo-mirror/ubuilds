@@ -10,6 +10,6 @@ LICENSE=Apache-2.0
 RDEPEND=postgres_targets_postgres16? ( dev-db/postgresql:16=[server] ) postgres_targets_postgres15? ( dev-db/postgresql:15=[server] ) postgres_targets_postgres14? ( dev-db/postgresql:14=[server] ) postgres_targets_postgres13? ( dev-db/postgresql:13=[server] ) postgres_targets_postgres12? ( dev-db/postgresql:12=[server] )
 REQUIRED_USE=|| ( postgres_targets_postgres16 postgres_targets_postgres15 postgres_targets_postgres14 postgres_targets_postgres13 postgres_targets_postgres12 )
 SLOT=0
-SRC_URI=https://github.com/okbob/plpgsql_check/archive/v2.7.10.tar.gz -> plpgsql_check-2.7.10.tar.gz
+SRC_URI=https://github.com/okbob/plpgsql_check/archive/v2.7.11.tar.gz -> plpgsql_check-2.7.11.tar.gz
 _eclasses_=out-of-source-utils	a0eb740debe3d472355e8bc52f62e0ac	multibuild	45df57b1877333d70a9e894f6c8fdb3a	postgres	3f864368af6c0e46196e03821025f1f5	postgres-multi	7140a1e9480de59ab4172274608bffce
 _md5_=716754dfce1cd898b205709f59a668a2
