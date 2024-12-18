@@ -1,9 +1,11 @@
 acct-group/loki 0-r1: System group: loki
 acct-group/mailmunge 0: System group: mailmunge
 acct-group/odyssey 0: System group: odyssey
+acct-group/saunafs 0: System group: saunafs
 acct-user/loki 0-r1: user for loki
 acct-user/mailmunge 0: user for mailmunge
 acct-user/odyssey 0: System user: odyssey
+acct-user/saunafs 0: System user: saunafs
 app-admin/crash 0.1.0: Client and server for running commands via redis pub/sub.
 app-admin/logstash-bin 7.16.3 7.17.2 8.3.3: Tool for managing events and logs
 app-admin/loki 2.7.4: Like Prometheus, but for logs.
@@ -49,7 +51,8 @@ net-misc/natscli 0.1.3: The NATS Command Line Interface
 net-misc/ssh-honeypot 9999: Fake sshd that logs ip addresses, usernames, and passwords.
 sys-cluster/moosefs 3.0.118 4.56.6: A filesystem for highly reliable petabyte storage
 sys-cluster/nova 3.11: Find outdated or deprecated Helm charts running in your kubernetes cluster.
-sys-cluster/seaweedfs 2.85: SeaweedFS is a simple and highly scalable distributed file system
+sys-cluster/saunafs 4.6.0: SaunaFS is a free-and open source, distributed POSIX file system.
+sys-cluster/seaweedfs 3.65: SeaweedFS is a simple and highly scalable distributed file system
 virtual/moose 1: Virtual for moosefs/lizardfs
 www-apps/icingaweb2-module-director 1.11.3: Icinga Web 2 plugin for configuration
 www-apps/icingaweb2-module-incubator 0.22.0: Bleeding edge Icinga Web 2 libraries

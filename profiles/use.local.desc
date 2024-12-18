@@ -30,6 +30,9 @@ sys-cluster/lizardfs:fuse - Install the mfsmount utility.
 sys-cluster/lizardfs:fuse3 - Use new FUSE library.
 sys-cluster/moosefs:cgi - Install CGI server and scripts.
 sys-cluster/moosefs:fuse - Install the mfsmount utility.
+sys-cluster/saunafs:cgi - Install CGI server and scripts.
+sys-cluster/saunafs:fuse - Install the mfsmount utility.
+sys-cluster/saunafs:fuse3 - Use new FUSE library.
 sys-cluster/seaweedfs:cgi - Install CGI server and scripts.
 sys-cluster/seaweedfs:fuse - Install the mfsmount utility.
 www-servers/nginx:aio - Enables file AIO support
