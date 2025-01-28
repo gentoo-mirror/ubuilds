@@ -51,7 +51,7 @@ net-misc/janus-gateway 1.1.3: Janus WebRTC Server
 net-misc/natscli 0.1.3: The NATS Command Line Interface
 net-misc/rsync 3.4.0: File transfer program to keep remote files into sync
 net-misc/ssh-honeypot 9999: Fake sshd that logs ip addresses, usernames, and passwords.
-sys-cluster/moosefs 3.0.118 4.56.6: A filesystem for highly reliable petabyte storage
+sys-cluster/moosefs 3.0.118 4.56.6 4.57.1: A filesystem for highly reliable petabyte storage
 sys-cluster/nova 3.11: Find outdated or deprecated Helm charts running in your kubernetes cluster.
 sys-cluster/saunafs 4.6.0: SaunaFS is a free-and open source, distributed POSIX file system.
 sys-cluster/seaweedfs 3.65: SeaweedFS is a simple and highly scalable distributed file system
