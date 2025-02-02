@@ -34,6 +34,7 @@ dev-php/pecl-ast 1.1.1: Extension exposing PHP 7 abstract syntax tree
 dev-php/pecl-mailparse 3.1.3-r1: PHP extension for parsing and working with RFC822 and MIME compliant messages
 dev-php/pecl-timezonedb 2023.3: Timezone Database to be used with PHP's date and time functions
 dev-php/php-spx 9999: A simple and straight-to-the-point PHP profiling extension
+dev-python/adi-iio 0.0.18: Python interfaces for ADI hardware with IIO drivers
 dev-python/pcapy-ng 1.0.9: Python pcap extension
 dev-python/pgextras 0.2.1: Provides various statistics for a Postgres instance
 dev-python/sentrylogs 0.5.0: Send logs from Nginx and other applications to Sentry.
