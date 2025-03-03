@@ -29,6 +29,7 @@ dev-db/pgvector 0.8.0: Open-source vector similarity search for Postgres
 dev-db/plpgsql_check 2.7.15: A Postgres linter fo pgplsql
 dev-db/postgresql_anonymizer 0.7.1 9999: Anonymization & Data Masking for PostgreSQL
 dev-db/rum 1.3.13: RUM access method - inverted index with additional information in posting lists
+dev-libs/isa-l 2.31.1: Intelligent Storage Acceleration Library
 dev-libs/libcouchbase 2.0.6: The couchbase client for C.
 dev-perl/scut 9999: scut is a better cut, extracts arbitrary columns based on regexes.
 dev-php/pecl-ast 1.1.1: Extension exposing PHP 7 abstract syntax tree
@@ -55,7 +56,7 @@ net-misc/rsync 3.4.0: File transfer program to keep remote files into sync
 net-misc/ssh-honeypot 9999: Fake sshd that logs ip addresses, usernames, and passwords.
 sys-cluster/moosefs 3.0.118 4.56.6 4.57.5: A filesystem for highly reliable petabyte storage
 sys-cluster/nova 3.11: Find outdated or deprecated Helm charts running in your kubernetes cluster.
-sys-cluster/saunafs 4.6.0: SaunaFS is a free-and open source, distributed POSIX file system.
+sys-cluster/saunafs 4.7.0 4.8.0_rc2: SaunaFS is a free-and open source, distributed POSIX file system.
 sys-cluster/seaweedfs 3.65: SeaweedFS is a simple and highly scalable distributed file system
 virtual/moose 1: Virtual for moosefs/lizardfs
 www-apps/icingaweb2-module-director 1.11.3: Icinga Web 2 plugin for configuration
