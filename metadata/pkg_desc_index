@@ -7,7 +7,7 @@ acct-user/mailmunge 0: user for mailmunge
 acct-user/odyssey 0: System user: odyssey
 acct-user/saunafs 0: System user: saunafs
 app-admin/crash 0.1.0: Client and server for running commands via redis pub/sub.
-app-admin/logstash-bin 7.16.3 7.17.2 8.3.3: Tool for managing events and logs
+app-admin/logstash-bin 8.3.3 8.17.4: Tool for managing events and logs
 app-admin/loki 2.7.4: Like Prometheus, but for logs.
 app-metrics/exim_exporter 1.6.1: Exports metrics from the exim mail server for consumption by Prometheus
 app-metrics/memcached_exporter 0.14.3: Prometheus exporter for memcached
