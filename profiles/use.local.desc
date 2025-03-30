@@ -14,6 +14,8 @@ dev-php/pecl-couchbase:lock_pthreadmutex - Enable pthread mutex locking
 dev-php/pecl-couchbase:lock_pthreadrw - Enable pthread read/write locking
 dev-php/pecl-couchbase:lock_semaphore - Enable semaphore locks instead of fcntl
 dev-php/pecl-couchbase:lock_spinlock - Enable spin locks (EXPERIMENTAL)
+dev-php/pecl-memcached:igbinary - Enable support for the igbinary serializer
+dev-php/pecl-memcached:json - Enable support for json serialization
 net-analyzer/suricata:af-packet - Enable AF_PACKET support
 net-analyzer/suricata:af-xdp - Enable AF_XDP support
 net-analyzer/suricata:bpf - Enable support for eBPF (as well as XDP if supported by the kernel and the NIC driver) for low-level, high-speed packet processing
