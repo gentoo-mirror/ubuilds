@@ -6,6 +6,42 @@ app-admin/loki:fluent-bit - Build the fluent-bit plugin to publish from app-admi
 app-admin/loki:promtail - Build the promtail log gathering agent
 app-admin/loki:server - Build the loki server
 app-admin/loki:tools - Build the loki tools logcli and loki-canary
+dev-lang/php:apparmor - Support FPM application confinement through sys-libs/libapparmor
+dev-lang/php:argon2 - Enable password hashing algorithm from app-crypt/argon2
+dev-lang/php:bcmath - Enable the BCMath Arbitrary Precision Mathematics extension
+dev-lang/php:capstone - Support opcache JIT disassembly through dev-libs/capstone
+dev-lang/php:cli - Enable the Command-Line Interface (CLI) SAPI
+dev-lang/php:ctype - Enable the Character type checking (ctype) extension
+dev-lang/php:embed - Enable embed SAPI
+dev-lang/php:enchant - Enable the Enchant spelling library extension using app-text/enchant
+dev-lang/php:ffi - Enable the Foreign Function Interface (FFI) extension using dev-libs/libffi
+dev-lang/php:fileinfo - Enable the File Information extension
+dev-lang/php:filter - Enable the Data Filtering extension
+dev-lang/php:flatfile - Add dbm support for flat files
+dev-lang/php:fpm - Enable the FastCGI Process Manager SAPI
+dev-lang/php:gd - Enable the Image Processing and GD extension (requires media-libs/libjpeg-turbo and media-libs/libpng)
+dev-lang/php:inifile - Add dbm support for .ini files
+dev-lang/php:intl - Enables the intl extension for extended internalization support
+dev-lang/php:ipv6 - Support IPv6 connectivity in fopen and friends, and v6 address conversions in functions like inet_pton and inet_ntop.
+dev-lang/php:jit - Enable PCRE JIT support
+dev-lang/php:ldap-sasl - Add SASL support for the PHP LDAP extension using dev-libs/cyrus-sasl
+dev-lang/php:lmdb - Enable support for dev-db/lmdb db backend
+dev-lang/php:opcache - Enables built-in opcode cache, replacing pecl-apc et al.
+dev-lang/php:opcache-jit - Enable Just In Time (JIT) compilation within the opcache extension
+dev-lang/php:pcntl - Enable the Process Control extension
+dev-lang/php:pdo - Enable the PHP Data Objects extension
+dev-lang/php:phar - Enables the phar extension to provide phar archive support
+dev-lang/php:phpdbg - Enable the PHP Debug Command Line SAPI (like gdb for php)
+dev-lang/php:session-mm - Include dev-libs/mm support for session storage
+dev-lang/php:sharedmem - Enable the shmop extension
+dev-lang/php:simplexml - Enable the SimpleXML extension
+dev-lang/php:sodium - Enable support for crypto through dev-libs/libsodium
+dev-lang/php:sysvipc - Enable the PHP System-V semaphore, shared memory and IPC extension
+dev-lang/php:tokenizer - Add support for the PHP file parser
+dev-lang/php:tokyocabinet - Enable support for dev-db/tokyocabinet db backend
+dev-lang/php:xmlreader - Enable the XMLReader extension
+dev-lang/php:xmlwriter - Enable the XMLWriter extension
+dev-lang/php:xslt - Build the XSL extension
 dev-php/pecl-apc:lock_pthreadmutex - Enable pthread mutex locking
 dev-php/pecl-apc:lock_pthreadrw - Enable pthread read/write locking
 dev-php/pecl-apc:lock_semaphore - Enable semaphore locks instead of fcntl

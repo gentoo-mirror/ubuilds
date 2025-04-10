@@ -29,6 +29,7 @@ dev-db/pgvector 0.8.0: Open-source vector similarity search for Postgres
 dev-db/plpgsql_check 2.8.0: A Postgres linter fo pgplsql
 dev-db/postgresql_anonymizer 0.7.1 9999: Anonymization & Data Masking for PostgreSQL
 dev-db/rum 1.3.13: RUM access method - inverted index with additional information in posting lists
+dev-lang/php 8.4.6: The PHP language runtime engine
 dev-libs/isa-l 2.31.1: Intelligent Storage Acceleration Library
 dev-libs/libcouchbase 2.0.6: The couchbase client for C.
 dev-perl/scut 9999: scut is a better cut, extracts arbitrary columns based on regexes.
