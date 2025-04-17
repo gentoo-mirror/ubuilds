@@ -39,7 +39,7 @@ dev-php/pecl-ast 1.1.1: Extension exposing PHP 7 abstract syntax tree
 dev-php/pecl-mailparse 3.1.8: PHP extension for parsing and working with RFC822 and MIME compliant messages
 dev-php/pecl-memcached 3.3.0-r1: Interface PHP with memcached via libmemcached library
 dev-php/pecl-opentelemetry 1.1.2: OpenTelemetry auto-instrumentation support extension
-dev-php/pecl-timezonedb 2023.3: Timezone Database to be used with PHP's date and time functions
+dev-php/pecl-timezonedb 2025.1: Timezone Database to be used with PHP's date and time functions
 dev-php/php-spx 9999: A simple and straight-to-the-point PHP profiling extension
 dev-python/adi-iio 0.0.18: Python interfaces for ADI hardware with IIO drivers
 dev-python/pcapy-ng 1.0.9: Python pcap extension
