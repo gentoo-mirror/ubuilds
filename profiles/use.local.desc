@@ -63,6 +63,7 @@ net-analyzer/suricata:nflog - Enable libnetfilter_log support
 net-analyzer/suricata:nfqueue - Enable NFQUEUE support for inline IDP
 net-analyzer/suricata:redis - Enable Redis support
 net-libs/libiio:aio - Enable asynchronous IO support
+net-libs/sofia-sip:glib - Add support to dev-libs/glib-based mainloop, to allow using Sofia-SIP on glib-based programs.
 net-misc/rsync:rrsync - Install rrsync script to setup restricted rsync users via ssh logins
 net-misc/rsync:stunnel - Provide helper scripts for using rsync via >=net-misc/stunnel-4
 net-misc/rsync:system-zlib - Use system zlib instead of bundled one. This is incompatible with older rsync releases!
