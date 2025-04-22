@@ -3,22 +3,22 @@
 
 EAPI=7
 
-GOLANG_PKG_IMPORTPATH="github.com/winduptoy"
+GOLANG_PKG_IMPORTPATH="github.com/mluvii"
 GOLANG_PKG_ARCHIVEPREFIX="v"
 GOLANG_PKG_BUILDPATH="/cmd/${PN}"
 GOLANG_PKG_HAVE_TEST=1
 
 inherit golang-vcs systemd user git-r3
 
-DESCRIPTION="A Prometheus metrics exporter for the Beanstalkd"
-HOMEPAGE="https://github.com/winduptoy/beanstalkd_exporter"
+DESCRIPTION="Prometheus Exporter for Janus WebRTC server"
+HOMEPAGE="https://github.com/mluvii/janus_exporter"
 SRC_URI=""
-EGIT_REPO_URI="https://github.com/winduptoy/${PN}.git"
+EGIT_REPO_URI="https://github.com/mluvii/${PN}.git"
 RESTRICT="mirror"
 
 LICENSE=""
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 
 QA_PRESTRIPPED="usr/bin/${PN}"
 
@@ -43,7 +43,7 @@ src_compile() {
 }
 
 src_install() {
-	newbin ${P} ${PN}
+	dobin ${PN}
 
 	newinitd "${FILESDIR}/${PN}.initd" "${PN}"
 	newconfd "${FILESDIR}/${PN}.confd" "${PN}"
