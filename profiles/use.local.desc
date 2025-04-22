@@ -42,14 +42,6 @@ dev-lang/php:tokyocabinet - Enable support for dev-db/tokyocabinet db backend
 dev-lang/php:xmlreader - Enable the XMLReader extension
 dev-lang/php:xmlwriter - Enable the XMLWriter extension
 dev-lang/php:xslt - Build the XSL extension
-dev-php/pecl-apc:lock_pthreadmutex - Enable pthread mutex locking
-dev-php/pecl-apc:lock_pthreadrw - Enable pthread read/write locking
-dev-php/pecl-apc:lock_semaphore - Enable semaphore locks instead of fcntl
-dev-php/pecl-apc:lock_spinlock - Enable spin locks (EXPERIMENTAL)
-dev-php/pecl-couchbase:lock_pthreadmutex - Enable pthread mutex locking
-dev-php/pecl-couchbase:lock_pthreadrw - Enable pthread read/write locking
-dev-php/pecl-couchbase:lock_semaphore - Enable semaphore locks instead of fcntl
-dev-php/pecl-couchbase:lock_spinlock - Enable spin locks (EXPERIMENTAL)
 dev-php/pecl-memcached:igbinary - Enable support for the igbinary serializer
 dev-php/pecl-memcached:json - Enable support for json serialization
 net-analyzer/suricata:af-packet - Enable AF_PACKET support

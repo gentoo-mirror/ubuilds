@@ -11,7 +11,9 @@ acct-user/saunafs 0: System user: saunafs
 app-admin/crash 0.1.0: Client and server for running commands via redis pub/sub.
 app-admin/logstash-bin 8.3.3 8.17.4: Tool for managing events and logs
 app-admin/loki 2.7.4: Like Prometheus, but for logs.
+app-metrics/beanstalkd_exporter 9999: A Prometheus metrics exporter for the Beanstalkd
 app-metrics/exim_exporter 1.6.1: Exports metrics from the exim mail server for consumption by Prometheus
+app-metrics/janus_exporter 9999: Prometheus Exporter for Janus WebRTC server
 app-metrics/memcached_exporter 0.14.3: Prometheus exporter for memcached
 app-metrics/moosefs_exporter 0.1.1: Scrapes MooseFS stats and exports them via HTTP for Prometheus consumption
 app-metrics/php-fpm_exporter 2.2.0: A Prometheus exporter that connects directly to PHP-FPM
@@ -50,6 +52,7 @@ dev-python/sentrylogs 0.5.0: Send logs from Nginx and other applications to Sent
 dev-python/tailhead 1.0.2: head, tail and follow in python
 net-analyzer/icingabeat 7.14.2: Elastic Beat fetching events & status from Icinga 2
 net-analyzer/nagios-check_fail2ban 3-r1: A nagios plugin for checking the fail2ban daemon
+net-analyzer/nagios-check_glsa2 20120930-r2: Nagios check script for GLSAs (Gentoo Linux Security Advisories)
 net-analyzer/nagios-plugins 1.4.16-r4 2.4.0: Official plugins for Nagios
 net-analyzer/suricata 7.0.8: High performance Network IDS, IPS and Network Security Monitoring engine
 net-firewall/bango 0.0.4 9999: Distributed banning system for fail2ban
