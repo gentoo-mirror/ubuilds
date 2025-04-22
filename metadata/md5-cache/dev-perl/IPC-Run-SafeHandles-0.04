@@ -1,0 +1,15 @@
+BDEPEND=>=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] test? ( >=virtual/perl-Test-Simple-1 )
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=test? ( dev-perl/DBI dev-perl/DBIx-DBSchema dev-perl/Want >=dev-perl/Cache-Simple-TimedExpiry-0.21 dev-perl/Clone dev-perl/Class-Accessor >=dev-perl/capitalization-0.03 >=dev-perl/class-returnvalue-0.4 dev-perl/DBD-SQLite >=virtual/perl-Test-Simple-0.52 ) >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=]
+DESCRIPTION=Encapsulate SQL queries and rows in simple perl objects
+EAPI=8
+HOMEPAGE=https://metacpan.org/release/IPC-Run-SafeHandles
+INHERIT=perl-module
+IUSE=test perl_features_debug perl_features_ithreads perl_features_quadmath test
+KEYWORDS=alpha amd64 hppa ia64 ~ppc sparc x86
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=dev-perl/DBI dev-perl/DBIx-DBSchema dev-perl/Want >=dev-perl/Cache-Simple-TimedExpiry-0.21 dev-perl/Clone dev-perl/Class-Accessor >=dev-perl/capitalization-0.03 >=dev-perl/class-returnvalue-0.4 >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] dev-lang/perl:=
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	perl-functions	1863acf0982afafc67797e3ce7275b4c	readme.gentoo-r1	b045f3acf546393ab6b3170781875358	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	perl-module	25ca2ff8e7971cb7f817f0bda4be696d
+_md5_=82ccb9c35e6fa918735bcc8d86a5ef2c
