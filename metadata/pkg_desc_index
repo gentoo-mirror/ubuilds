@@ -7,6 +7,7 @@ acct-user/janus 0: System user: janus
 acct-user/loki 0-r1: user for loki
 acct-user/mailmunge 0: user for mailmunge
 acct-user/odyssey 0: System user: odyssey
+acct-user/pgcat 0: System user: pgcat
 acct-user/saunafs 0: System user: saunafs
 app-admin/crash 0.1.0: Client and server for running commands via redis pub/sub.
 app-admin/logstash-bin 8.3.3 8.17.4: Tool for managing events and logs
@@ -28,6 +29,7 @@ dev-db/odyssey 1.3 9999: Scalable PostgreSQL connection pooler
 dev-db/omnipitr 9999: OmniPITR is a set of scripts to ease setting up WAL replication, and making hot backups from both Master and Slave systems.
 dev-db/pg_repack 1.4.8: Reorganize tables in PostgreSQL databases with minimal locks
 dev-db/pg_tde 1.0.0: Transparent Data Encryption for PostgreSQL from Percona
+dev-db/pgcat 1.3.0: PostgreSQL pooler with sharding, load balancing and failover support.
 dev-db/pgtde 9999: Transparent Data Encryption for PostgreSQL
 dev-db/pgvector 0.8.0: Open-source vector similarity search for Postgres
 dev-db/plpgsql_check 2.8.1: A Postgres linter fo pgplsql
