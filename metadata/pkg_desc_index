@@ -55,11 +55,11 @@ dev-python/pgextras 0.2.1: Provides various statistics for a Postgres instance
 net-analyzer/icingabeat 7.14.2: Elastic Beat fetching events & status from Icinga 2
 net-analyzer/nagios-check_fail2ban 3-r1: A nagios plugin for checking the fail2ban daemon
 net-analyzer/nagios-check_glsa2 20120930-r2: Nagios check script for GLSAs (Gentoo Linux Security Advisories)
-net-analyzer/suricata 7.0.10: High performance Network IDS, IPS and Network Security Monitoring engine
+net-analyzer/suricata 7.0.11: High performance Network IDS, IPS and Network Security Monitoring engine
 net-firewall/bango 0.0.4 9999: Distributed banning system for fail2ban
 net-firewall/vallumd 0.1.5 0.2.1 9999: Centralize or distribute IP blacklists
 net-fs/supload 9999: Bash script for upload file to cloud storage based on OpenStack Swift API.
-net-libs/libhtp 0.5.50: Security-aware parser for the HTTP protocol and the related bits and pieces
+net-libs/libhtp 0.5.51: Security-aware parser for the HTTP protocol and the related bits and pieces
 net-libs/libiio 0.26: Library for interfacing with IIO devices
 net-libs/sofia-sip 1.13.17: RFC3261 compliant SIP User-Agent library
 net-misc/free-sa 2.0.0: Free squid log analyzer
