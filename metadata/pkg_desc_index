@@ -31,7 +31,7 @@ dev-db/pg_repack 1.4.8: Reorganize tables in PostgreSQL databases with minimal l
 dev-db/pg_tde 1.0.0: Transparent Data Encryption for PostgreSQL from Percona
 dev-db/pgcat 1.3.0: PostgreSQL pooler with sharding, load balancing and failover support.
 dev-db/pgtde 9999: Transparent Data Encryption for PostgreSQL
-dev-db/pgvector 0.8.0: Open-source vector similarity search for Postgres
+dev-db/pgvector 0.8.1: Open-source vector similarity search for Postgres
 dev-db/plpgsql_check 2.8.2: A Postgres linter fo pgplsql
 dev-db/postgresql_anonymizer 0.7.1 9999: Anonymization & Data Masking for PostgreSQL
 dev-db/rum 1.3.13: RUM access method - inverted index with additional information in posting lists
@@ -67,7 +67,7 @@ net-misc/janus-gateway 1.3.2: Janus WebRTC Server
 net-misc/natscli 0.1.3: The NATS Command Line Interface
 net-misc/rsync 3.4.0: File transfer program to keep remote files into sync
 net-misc/ssh-honeypot 9999: Fake sshd that logs ip addresses, usernames, and passwords.
-sys-cluster/moosefs 3.0.118 4.57.7: A filesystem for highly reliable petabyte storage
+sys-cluster/moosefs 3.0.118 4.58.0: A filesystem for highly reliable petabyte storage
 sys-cluster/nova 3.11: Find outdated or deprecated Helm charts running in your kubernetes cluster.
 sys-cluster/saunafs 4.10.0: SaunaFS is a free-and open source, distributed POSIX file system.
 sys-cluster/seaweedfs 3.65: SeaweedFS is a simple and highly scalable distributed file system
