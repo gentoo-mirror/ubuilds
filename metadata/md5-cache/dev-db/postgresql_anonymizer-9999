@@ -1,15 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install prepare setup test unpack
-DEPEND=postgres_targets_postgres13? ( dev-db/postgresql:13=[server] ) virtual/pkgconfig
+DEPEND=virtual/pkgconfig
 DESCRIPTION=Anonymization & Data Masking for PostgreSQL
 EAPI=7
 HOMEPAGE=https://gitlab.com/dalibo/postgresql_anonymizer
 INHERIT=postgres-multi git-r3
-IUSE=postgres_targets_postgres13
 KEYWORDS=~amd64 ~x86
 LICENSE=POSTGRESQL
 PROPERTIES=live
-RDEPEND=postgres_targets_postgres13? ( dev-db/postgresql:13=[server] )
 SLOT=0
-_eclasses_=out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	postgres	aa74feb4d9c1e9af578d99aea36bbace	postgres-multi	ccad35d745ce66b41837db8a6ee94601	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	postgres	3671a84f95eadcaa836aefe3fd51b6a1	postgres-multi	ccad35d745ce66b41837db8a6ee94601	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=9a99a57a666e9f14c91fd9b3468c859f
