@@ -59,7 +59,7 @@ net-analyzer/suricata 7.0.12: High performance Network IDS, IPS and Network Secu
 net-firewall/bango 0.0.4 9999: Distributed banning system for fail2ban
 net-firewall/vallumd 0.1.5 0.2.1 9999: Centralize or distribute IP blacklists
 net-fs/supload 9999: Bash script for upload file to cloud storage based on OpenStack Swift API.
-net-libs/libhtp 0.5.51: Security-aware parser for the HTTP protocol and the related bits and pieces
+net-libs/libhtp 0.5.52: Security-aware parser for the HTTP protocol and the related bits and pieces
 net-libs/libiio 0.26: Library for interfacing with IIO devices
 net-libs/sofia-sip 1.13.17: RFC3261 compliant SIP User-Agent library
 net-misc/free-sa 2.0.0: Free squid log analyzer
