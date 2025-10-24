@@ -56,6 +56,7 @@ net-analyzer/icingabeat 7.14.2: Elastic Beat fetching events & status from Icing
 net-analyzer/nagios-check_fail2ban 3-r1: A nagios plugin for checking the fail2ban daemon
 net-analyzer/nagios-check_glsa2 20120930-r2: Nagios check script for GLSAs (Gentoo Linux Security Advisories)
 net-analyzer/suricata 7.0.12: High performance Network IDS, IPS and Network Security Monitoring engine
+net-dns/bind 9.18.41: Berkeley Internet Name Domain - Name Server
 net-firewall/bango 0.0.5 9999: Distributed banning system for fail2ban
 net-firewall/vallumd 0.1.5 0.2.1 9999: Centralize or distribute IP blacklists
 net-fs/supload 9999: Bash script for upload file to cloud storage based on OpenStack Swift API.
